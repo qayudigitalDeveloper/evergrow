@@ -32,10 +32,15 @@ const Header = () => {
     };
   }, [lastScrollY]);
 
+  const scrolltoTop=()=>{
+    window.scrollTo({top: 0, behavior: "smooth"})
+  }
+
   return (
     <>
       <div className={`header-cont ${showNavbar ? 'visible' : 'hidden'}`}>
         <img
+        onClick={scrolltoTop}
           className="logo"
           src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752138234/Evergrowlogo_drbghr.png"
           alt="logo"
