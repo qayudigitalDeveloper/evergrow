@@ -4,15 +4,13 @@
 
 }
 
-.footer-botm-cont {
-    h2 {
-        color: #d1d7e0;
-        font-size: large;
-    }
+.footerbotmh2 {
+    color: #d1d7e0;
+    font-size: large;
+}
 
-    p {
-        color: #757b88;
-    }
+.footerbotmp {
+    color: #757b88;
 }
 
 .icon-foot {
@@ -51,8 +49,9 @@
     margin-bottom: 0px;
     color: #f9fefa;
 }
-.footerp{
-color: #bfdef8;
+
+.footerp {
+    color: #bfdef8;
 }
 
 .year {

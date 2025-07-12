@@ -27,8 +27,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footer-botm-cont'>
-                <h2>Evergrow</h2>
-                <p>Your trusted partner for<br />
+                <h2 className='footerbotmh2'>Evergrow</h2>
+                <p className='footerbotmp'>Your trusted partner for<br />
                     premium corporate gifts in<br />
                     Dubai and across UAE since<br />
                     2013
