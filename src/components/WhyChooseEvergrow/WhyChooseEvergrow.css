@@ -1,0 +1,88 @@
+.why-bg-cont {
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdfdfc;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Roboto";
+background-color: #ffffff;
+}
+.why-h{
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bg-why {
+    border: none;
+    border-radius: 30px;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6e6fd;
+}
+.ul-cont{
+    display: flex;
+    justify-content: space-between;
+    align-self: stretch;
+    margin-top: 30px;
+}
+
+.why-icon {
+    font-size: 25px;
+}
+
+.choose-card {
+    background-color: #f8f8f7;
+    display: flex;
+    top: center;
+    flex-direction: column;
+    width: 240px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 100px;
+    padding: 20px;
+}
+@media (max-width: 425px){
+    .choose-card{
+        width: 200px;
+        border-radius: 5px;
+    }
+    .why{
+        padding: 0px;
+    }
+    .why-h{
+        font-size: 25px;
+    }
+}
+
+.choose-sub {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.choose-p{
+    font-size: 13px;
+    color: rgb(94, 92, 92);
+    margin-top: 0px;
+}

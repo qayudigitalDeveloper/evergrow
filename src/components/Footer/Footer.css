@@ -1,0 +1,126 @@
+.footer-botm-cont {
+    background-color: #1e2331;
+    padding: 50px;
+
+}
+
+.footer-botm-cont {
+    h2 {
+        color: #d1d7e0;
+        font-size: large;
+    }
+
+    p {
+        color: #757b88;
+    }
+}
+
+.icon-foot {
+    color: #757b88;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.footer-icons-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    h4 {
+        margin: 0px;
+
+    }
+}
+
+.footer-top-cont {
+    background-color: #2357e7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.footer-top-cont {
+    h1 {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+        color: #f9fefa;
+    }
+
+    p {
+        color: #bfdef8;
+    }
+}
+
+.year {
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.reqq-btn {
+    background-color: #f9fefa;
+    padding: 10px;
+    color: #2357e7;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    margin-right: 20px;
+    cursor: pointer;
+    outline: none;
+}
+
+.whats-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #cff6ff;
+    background-color: #3476f5;
+    border: none;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+
+.footer-btns-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.FaWhatsapp {
+    font-size: 20px;
+    margin-right: 5px;
+}
+@media (max-width: 425px) {
+    .footer-top-cont{
+        padding: 20px;
+        h1{
+            display: inline;
+            font-size: 25px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+    .footer-btns-cont{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .reqq-btn {
+        margin-bottom: 10px;
+    }
+    .year{
+        font-size: 25px;
+    }
+}

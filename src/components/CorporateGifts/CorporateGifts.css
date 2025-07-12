@@ -1,0 +1,187 @@
+.corpo-bg-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-family: "Roboto";
+    background-color: #f8f8f9;
+}
+
+.corpo-h {
+    font-weight: bolder;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.corpo-p {
+    color: rgb(87, 85, 85);
+    font-weight: 500;
+    text-align: center;
+}
+
+.corpo-ul {
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+
+
+.corpo-li {
+    list-style-type: none;
+
+}
+
+.gifts-cont {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fdfdfc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+
+    img {
+        height: 200px;
+
+    }
+}
+
+.aed-cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+        align-self: flex-start;
+    }
+
+    button {
+        cursor: pointer;
+        outline: none;
+
+    }
+}
+
+.gi-h {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d3d3c;
+}
+
+.aed {
+    font-weight: 600;
+    font-size: 14px;
+    color: #3d3d3c;
+
+    span {
+        font-weight: 200;
+    }
+}
+
+.gi-p {
+    color: #9e9ea0;
+    font-size: 14px;
+}
+
+.enq-btn {
+    border: none;
+    border-radius: 8px;
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+    
+}
+
+.req-btn {
+    background-color: blue;
+    color: #fff;
+    width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+@media (max-width: 1439), (min-width: 1024) {
+    .corpo-ul{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .gifts-cont {
+        width: 240px;
+    }
+
+    .aed-cont {
+        flex-direction: column;
+       
+
+        div {
+            align-self: flex-start;
+        }
+        button{
+            align-self: stretch;
+        }
+    }
+
+    .enq-btn {
+        align-self: stretch;
+    }
+}
+
+@media (max-width:425px) {
+    .corpo-bg-cont {
+        padding: 30px;
+    }
+
+    .corpo-h {
+        font-size: 25px;
+    }
+
+    .corpo-p {
+        font-size: small;
+    }
+
+    .gifts-cont {
+        width: 85%;
+        align-self: center;
+
+        img {
+            height: 150px;
+        }
+    }
+
+    .corpo-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gi-h {
+        font-size: 18px;
+    }
+
+    .gi-p {
+        font-size: small;
+    }
+
+}

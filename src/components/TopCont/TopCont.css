@@ -1,0 +1,42 @@
+.top-bg-cont{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 120px;
+}
+.banner {
+    margin-top: 0px;
+  object-fit: cover; /* maintains aspect ratio and fills the box */
+  width: 100%;
+  align-self: center;
+  background-size: cover;
+  border: none;
+  border-radius: 20px;
+}
+.sm{
+  display: none;  
+}
+
+.slider-desktop {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.slider-mobile {
+  display: none;
+}
+@media (max-width: 425px) {
+  .slider-desktop {
+    display: none;
+  }
+
+  .slider-mobile {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .top-bg-cont{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+  
+}
+
