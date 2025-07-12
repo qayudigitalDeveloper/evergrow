@@ -43,24 +43,22 @@
     font-family: "Roboto";
 }
 
-.footer-top-cont {
-    h1 {
-        display: inline;
-        font-size: 30px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 0px;
-        color: #f9fefa;
-    }
 
-    p {
-        color: #bfdef8;
-    }
+.footerh1 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    color: #f9fefa;
+}
+.footerp{
+color: #bfdef8;
 }
 
 .year {
     font-size: 30px;
     margin-top: 0px;
+    color: #f9fefa;
 }
 
 .reqq-btn {
@@ -88,7 +86,8 @@
     cursor: pointer;
     outline: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
@@ -103,25 +102,31 @@ a{
     font-size: 20px;
     margin-right: 5px;
 }
+
 @media (max-width: 425px) {
-    .footer-top-cont{
+    .footer-top-cont {
         padding: 20px;
-        h1{
+
+        h1 {
             display: inline;
             font-size: 25px;
         }
-        p{
+
+        p {
             font-size: 15px;
         }
     }
-    .footer-btns-cont{
+
+    .footer-btns-cont {
         flex-direction: column;
         align-items: stretch;
     }
+
     .reqq-btn {
         margin-bottom: 10px;
     }
-    .year{
+
+    .year {
         font-size: 25px;
     }
 }
