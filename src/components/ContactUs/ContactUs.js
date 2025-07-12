@@ -106,7 +106,7 @@ const ContactUs = () => {
             },
             body: JSON.stringify(details)
         }
-        const response= await fetch(API_BASE_URL, options)
+        const response= await fetch(`${API_BASE_URL}/send-inquiry`, options)
         console.log(response)
         setCompName("")
         setMobileNum('')
