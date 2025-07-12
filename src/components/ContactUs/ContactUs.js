@@ -201,7 +201,7 @@ const ContactUs = () => {
                     <label htmlFor='info' >Additional Information</label>
                     <textarea
                         id="info"
-                        cols="40"
+                        cols="30"
                         rows="4"
                         placeholder='type...'
                         value={info}
