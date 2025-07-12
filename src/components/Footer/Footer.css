@@ -45,6 +45,7 @@
 
 .footer-top-cont {
     h1 {
+        display: inline;
         font-size: 30px;
         display: flex;
         align-items: center;
