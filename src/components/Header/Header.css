@@ -52,6 +52,7 @@
 .logo {
     height: 50px;
     margin-left: 50px;
+    cursor: pointer;
 }
 
 .h-li {
