@@ -22,19 +22,22 @@ const TopCont = () => {
             {/* Desktop Slider */}
             <div className='slider-desktop'>
                 <Slider {...settings}>
-                    <div><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752132641/banner3_vukufm.png" alt="banner1" /></div>
-                    <div><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752133107/banner2_dm88be.png" alt="banner2" /></div>
-                    <div><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752132794/banner1_x90d5b.png" alt="banner3" /></div>
-                    <div><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752132446/topdis1_ptyqun.png" alt="banner4" /></div>
+                    <div><a href='#products'>
+                        <img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752132641/banner3_vukufm.png" alt="banner1" />
+                    </a>
+                    </div>
+                    <div><a href='#products'><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752133107/banner2_dm88be.png" alt="banner2" /></a></div>
+                    <div><a href='#products'><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752132794/banner1_x90d5b.png" alt="banner3" /></a></div>
+                    <div><a href='#products'><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752132446/topdis1_ptyqun.png" alt="banner4" /></a></div>
                 </Slider>
             </div>
 
             {/* Mobile Slider */}
             <div className='slider-mobile'>
                 <Slider {...settings}>
-                    <div><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752126018/bannermobile2_o9ucag.png" alt="banner1" /></div>
-                    <div><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752125980/bannermobile3_wcquob.png" alt="banner2" /></div>
-                    <div><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752125979/bannermobile4_qj6ej1.png" alt="banner3" /></div>
+                    <div><a href='#products'><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752126018/bannermobile2_o9ucag.png" alt="banner1" /></a></div>
+                    <div><a href='#products'><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752125980/bannermobile3_wcquob.png" alt="banner2" /></a></div>
+                    <div><a href='#products'><img className='banner' src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752125979/bannermobile4_qj6ej1.png" alt="banner3" /></a></div>
                 </Slider>
             </div>
         </div>
