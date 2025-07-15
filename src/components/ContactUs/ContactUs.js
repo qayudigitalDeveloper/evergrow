@@ -5,6 +5,7 @@ import { FiMail } from "react-icons/fi";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import Select from 'react-select';
 import { API_BASE_URL } from '../../config';
+import { FaWhatsapp } from "react-icons/fa";
 
 const intedProducts = [
     {
@@ -116,6 +117,9 @@ const ContactUs = () => {
         setfullname('')
         setinfo('')
     }
+    const phone = "971557443213";
+    const message = encodeURIComponent("Hello, I want to order your products");
+    const whatsappUrl = `https://wa.me/${phone}?text=${message}`
 
     return (
         <div className='conta-cont' id="contactus">
@@ -126,11 +130,21 @@ const ContactUs = () => {
                 </p>
                 <h4>Contact Information</h4>
                 <p><FiPhone /> +971 4 225 4999</p>
-                <p><FiMail /> info@evergrow.ae</p>
-                <p><HiOutlineLocationMarker /> Warehouse #2 Plot 128-168, Dubai</p>
+                 <a
+                        href={whatsappUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                <p><FaWhatsapp /> +971 5574 43213</p></a>
+                <p><a className="email-ever" href="mailto:info@evergrow.ae"><FiMail /> info@evergrow.ae</a></p>
+                <p>
+                    
+                    <HiOutlineLocationMarker /> Warehouse 2, Al Khabaisi, Deira, Dubai
+                    
+                </p>
                 <h4>Business Hours</h4>
-                <p>Sunday - Thursday: 9:00 AM - 6:00 PM</p>
-                <p>Friday - Saturday: Closed</p>
+                <p>Monday - Saturday: 9.30 AM - 6.30 PM</p>
+                <p>Sunday: Closed</p>
             </div>
             <div className='con-right'>
                 <form onSubmit={onContactSubmit}>

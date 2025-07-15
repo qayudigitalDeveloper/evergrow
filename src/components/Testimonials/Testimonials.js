@@ -4,21 +4,21 @@ import { FaStar } from "react-icons/fa";
 const testimonialsList = [
     {
         id: 1,
-        name: "Ahmed Hassan",
-        department: "HR Director, Emirates Bank",
-        desc: "Evergrow delivered exceptional quality USB drives for our annual conference. The customization was perfect and delivery was ahead of schedule.",
+        name: "Abdul Ajmal",
+        department: "Enotions Events",
+        desc: "We've been working with Poorti for our corporate gifting needs, and she’s hands-down one of the best in Dubai! Whether it’s customised bags, bulk branded items, or sustainable corporate gifts, the quality and professionalism are top-notch. Her team ensures high-quality printing, timely delivery, and excellent attention to detail. If you're looking for a trusted vendor for corporate gifting in Dubai, Poorti is the one to go to. Highly recommended!",
     },
     {
         id: 2,
-        name: "Sarah AI Maktoum",
-        department: "Marketing Manager, Dubai Properties",
-        desc: "We've been ordering our Ramadan gift boxes from Evergrow for 3 years now. Their attention to detail and quality is unmatched in the UAE.",
+        name: "Agish Kavithil",
+        department: "Movementor",
+        desc: "I had an amazing experience getting a custom t-shirt printed from Poorti's company. I wanted a gold gradient design, and so many companies told me it was either impossible to print or wouldn’t last long even if they managed it. Poorti, however, was confident it could be done exactly as I envisioned and assured me the print would be long-lasting. The result was perfect! The gradient came out beautifully, and the quality feels incredibly durable. I’m super happy with the outcome and will definitely be printing many more of my company's merchandise with them. Highly recommend to anyone looking for top-quality custom printing!",
     },
     {
         id: 3,
-        name: "Rajesh Kumar",
-        department: "CEO, Tech Solutions UAE",
-        desc: "The power banks we ordered were a hit with our clients. Great quality, competitive pricing, and excellent customer service.",
+        name: "Israa Javed",
+        department: "Writer Relocation's",
+        desc: "Good corporate items with personalised service. Would recommend Evergrow!",
     }
 ]
 

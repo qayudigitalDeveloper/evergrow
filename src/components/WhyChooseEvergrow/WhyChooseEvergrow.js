@@ -14,10 +14,10 @@ const WhyChooseEvergrow = () => {
                         <FiClock className='why-icon' />
                     </div>
                     <h1 className='choose-sub'>
-                        10+ Years Experience
+                        30+ Years Experience
                     </h1>
                     <p className='choose-p'>
-                        Trusted by business across UAE since 2013 with proven expoertise in corporate gifting.
+                        Trusted by businesses across U.A.E since 1990 with expertise in custom-made corporate gifts.
                     </p>
                 </div>
                 <div className='choose-card'>
@@ -25,7 +25,7 @@ const WhyChooseEvergrow = () => {
                         <IoIosPeople className='why-icon' />
                     </div>
                     <h1 className='choose-sub'>
-                        100+ Corporate Clients
+                        1000+ Corporate clients
                     </h1>
                     <p className='choose-p'>
                         Serving major companies across banking, hospitality, tech, and government sectors in UAE.
