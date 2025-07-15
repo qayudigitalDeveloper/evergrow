@@ -142,10 +142,22 @@ button {
             align-self: stretch;
         }
     }
+    .corpo-ul{
+        justify-content: center;
+    }
 
     .enq-btn {
         align-self: stretch;
     }
+}
+@media (width: 820px), (width: 853px){
+    .corpo-ul{
+        justify-content: center;
+    }
+    .gifts-cont{
+        width: 500px;
+    }
+
 }
 
 @media (max-width:425px) {

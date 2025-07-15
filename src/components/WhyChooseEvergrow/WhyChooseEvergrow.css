@@ -61,11 +61,13 @@ background-color: #ffffff;
     padding-left: 30px;
     padding-right: 100px;
     padding: 20px;
+    margin: 5px;
 }
 @media (max-width: 425px){
     .choose-card{
         width: 200px;
         border-radius: 5px;
+        margin: 20px;
     }
     .why{
         padding: 0px;
@@ -73,6 +75,7 @@ background-color: #ffffff;
     .why-h{
         font-size: 25px;
     }
+
 }
 
 .choose-sub {

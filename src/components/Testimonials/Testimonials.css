@@ -24,6 +24,7 @@ li{
     border: none;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    margin: 10px;
 
 }
 .name-cont{
@@ -93,10 +94,37 @@ li{
     padding-right: 20px;
     margin-bottom: 10px;
     margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     p{
         color: #0c0cc25b;
         margin: 0px;
         font-weight: bold;
+    }
+}
+.comp-logos{
+    height: 50px;
+}
+
+@media (max-width: 768px) {
+    .comp-logos{
+    height: 30px;
+}
+.tr-card-cont{
+     padding-top: 7px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 100px;
+    p{
+        font-size: small;
+    }
+}
+}
+
+@media (width: 320px) {
+    .testi-card{
+        width: 200px;
     }
 }

@@ -57,12 +57,28 @@ const Testimonials = () => {
             </ul>
             <h1 className='corpo-h'>Trusted By</h1>
             <div className='tr-cont'>
-                    <div className='tr-card-cont'><p>Emirates</p></div>
-                    <div className='tr-card-cont'><p>Etisalat</p></div>
-                    <div className='tr-card-cont'><p>Emaar</p></div>
-                    <div className='tr-card-cont'><p>ADNOC</p></div>
-                    <div className='tr-card-cont'><p>DEWA</p></div>
-                    <div className='tr-card-cont'><p>Jumeirah</p></div>
+                    <div className='tr-card-cont'>
+                        <img className='comp-logos'
+                        src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752569983/emirates-seeklogo_r8asyd.png" alt='comp-logo' />
+                        <p>Emirates</p></div>
+                    <div className='tr-card-cont'>
+                        <img className='comp-logos' 
+                        src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752569837/etisalat-new-2022-seeklogo_twr7ko.png" alt='comp-logo'/>
+                        <p>Etisalat</p>
+                        </div>
+                    <div className='tr-card-cont'>
+                        <img className='comp-logos' 
+                        src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752570131/emaar-seeklogo_vdcdri.png" alt='comp-logo' />
+                        <p>Emaar</p></div>
+                    <div className='tr-card-cont'>
+                        <img className='comp-logos' src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1752570353/abu-dhabi-national-oil-company-adnoc-seeklogo_p4mt5d.png' alt='comp-logo' />
+                        <p>ADNOC</p></div>
+                    <div className='tr-card-cont'>
+                        <img className='comp-logos' src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1752570524/dewa-seeklogo_mvpenw.png' alt='comp-logo' />
+                        <p>DEWA</p></div>
+                    <div className='tr-card-cont'>
+                        <img className='comp-logos' src='https://res.cloudinary.com/dkvptcm7q/image/upload/v1752570714/idqok-k7lS_1752570686181_rsdstg.jpg' alt='comp-logo' />
+                        <p>Jumeirah</p></div>
             </div>
         </div>
     )
