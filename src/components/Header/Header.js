@@ -42,7 +42,7 @@ const Header = () => {
         <img
         onClick={scrolltoTop}
           className="logo"
-          src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752138234/Evergrowlogo_drbghr.png"
+          src="https://res.cloudinary.com/dkvptcm7q/image/upload/v1752575072/evergrow-color_ep9mg4.png"
           alt="logo"
         />
 
