@@ -29,7 +29,7 @@ const Testimonials = () => {
             <p className='corpo-p'>Trusted by leading companies acress UAE</p>
             <ul className='corpo-ul'>
                 {testimonialsList.map(each =>
-                    <li key={each.id}>
+                    <li className='testi-li' key={each.id}>
                         <div className='testi-card'>
                             <div className='name-cont'>
                                 <div className='name-bg-cont'>
