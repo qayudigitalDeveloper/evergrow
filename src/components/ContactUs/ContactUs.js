@@ -58,7 +58,7 @@ const ContactUs = () => {
     const [mobileNum, setMobileNum] = useState('');
     const [companyName, setCompName] = useState('')
     const [quantity, setQuantity] = useState('');
-    const [info, setinfo]= useState('')
+    const [info, setinfo] = useState('')
 
     const customStyles = {
         multiValue: (styles) => ({
@@ -88,28 +88,31 @@ const ContactUs = () => {
 
     const onContactSubmit = async (event) => {
         event.preventDefault()
-        const selectedGiftNames = selectedOptions.map(option => option.value);
-        const details= {
-            name: fullname,
-            email: email,
-            mobileNum: mobileNum,
-            companyName: companyName,
-            quantity: quantity,
-            message: info,
-            products: selectedGiftNames
-        }
-        const options= {
-            method: "POST",
-            headers: {
-                "Content-Type": 'application/Json'
-            },
-            body: JSON.stringify(details)
-        }
-        const response= await fetch(`${API_BASE_URL}/send-inquiry`, options)
+        
+            const selectedGiftNames = selectedOptions.map(option => option.value);
+            const details = {
+                name: fullname,
+                email: email,
+                mobileNum: mobileNum,
+                companyName: companyName,
+                quantity: quantity,
+                message: info,
+                products: selectedGiftNames
+            }
+            const options = {
+                method: "POST",
+                headers: {
+                    "Content-Type": 'application/Json'
+                },
+                body: JSON.stringify(details)
+            }
+            const response = await fetch(`${API_BASE_URL}/send-inquiry`, options)
+        
+
         setCompName("")
         setMobileNum('')
         setQuantity('')
-        setSelectedOptions('')
+        setSelectedOptions([])
         setemail('')
         setfullname('')
         setinfo('')
@@ -127,17 +130,17 @@ const ContactUs = () => {
                 </p>
                 <h4>Contact Information</h4>
                 <p><FiPhone /> +971 4 225 4999</p>
-                 <a
-                        href={whatsappUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                <p><FaWhatsapp /> +971 5574 43213</p></a>
+                <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <p><FaWhatsapp /> +971 5574 43213</p></a>
                 <p><a className="email-ever" href="mailto:info@evergrow.ae"><FiMail /> info@evergrow.ae</a></p>
                 <p>
-                    
+
                     <HiOutlineLocationMarker /> Warehouse 2, Al Khabaisi, Deira, Dubai
-                    
+
                 </p>
                 <h4>Business Hours</h4>
                 <p>Monday - Saturday: 9.30 AM - 6.30 PM</p>
@@ -190,15 +193,6 @@ const ContactUs = () => {
                         onChange={setSelectedOptions}
                         placeholder="Choose products..."
                     />
-
-                    {/*<div style={{ marginTop: '20px' }}>
-                        <strong>Selected:</strong>
-                        <ul>
-                            {selectedOptions.map(option => (
-                                <li key={option.value}>{option.label}</li>
-                            ))}
-                        </ul>
-                    </div>*/}
 
                     <label htmlFor='quatity'>Estimated Quantity</label>
                     <input
