@@ -87,7 +87,6 @@ const ContactUs = () => {
     }));
 
     const onContactSubmit = async (event) => {
-        console.log('clicked submit')
         event.preventDefault()
         const selectedGiftNames = selectedOptions.map(option => option.value);
         const details= {
@@ -99,7 +98,6 @@ const ContactUs = () => {
             message: info,
             products: selectedGiftNames
         }
-        console.log(JSON.stringify(details))
         const options= {
             method: "POST",
             headers: {
@@ -108,7 +106,6 @@ const ContactUs = () => {
             body: JSON.stringify(details)
         }
         const response= await fetch(`${API_BASE_URL}/send-inquiry`, options)
-        console.log(response)
         setCompName("")
         setMobileNum('')
         setQuantity('')
