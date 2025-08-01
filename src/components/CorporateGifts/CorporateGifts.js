@@ -176,7 +176,7 @@ const CorporateGifts = () =>{
                 {gifts.map(each => 
                     <li key={each.id} className='corpo-li'>
                         <div className='gifts-cont'>
-                            <img alt='gift image' src={each.img} />
+                            <img alt={each.giftname} src={each.img} />
                             <div className='gift-sub-cont'>
                                 <h1 className='gi-h'>
                                     {each.giftname}

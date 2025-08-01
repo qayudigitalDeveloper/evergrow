@@ -3,7 +3,6 @@ import { GoDash } from "react-icons/go";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     const phone = "971557443213";

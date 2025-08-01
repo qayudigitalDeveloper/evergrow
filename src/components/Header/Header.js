@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import './Header.css';
 import { FaBars } from "react-icons/fa6";
 
@@ -16,21 +16,21 @@ const Header = () => {
 
   const toggleSidebar = () => setIsOpen(!isOpen);
 
-  const controlNavbar = () => {
-    if (window.scrollY < lastScrollY) {
+  const controlNavbar = useCallback(() => {
+  if (window.scrollY < lastScrollY) {
       setShowNavbar(true);  // scrolling up
     } else {
       setShowNavbar(false); // scrolling down
     }
     setLastScrollY(window.scrollY);
-  };
-
+}, [lastScrollY]);
+  
   useEffect(() => {
     window.addEventListener("scroll", controlNavbar);
     return () => {
       window.removeEventListener("scroll", controlNavbar);
     };
-  }, [lastScrollY]);
+  }, [controlNavbar]);
 
   const scrolltoTop=()=>{
     window.scrollTo({top: 0, behavior: "smooth"})
