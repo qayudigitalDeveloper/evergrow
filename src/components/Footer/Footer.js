@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className='Footer-bg-cont' id="footer">
             <div className='footer-top-cont'>
-                <h1 className='footerh1'>Order Now <GoDash /> Bulk Discounts Available for May to July</h1>
+                <h1 className='footerh1'>Order Now <GoDash /> Bulk Discounts Available for August to October</h1>
                 <h1 className='year'>2025!</h1>
                 <p className='footerp'>Don't miss out on our special corporate pricing. Get your customized gifts delivered across UAE.</p>
                 <div className='footer-btns-cont'>
