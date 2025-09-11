@@ -36,7 +36,7 @@ const Footer = () => {
                     <a href="https://www.facebook.com/evergrowuae" target="_blank" rel="noopener noreferrer">
                         <FaFacebook className='icon-foot' />
                     </a>
-                    <a href="https://www.instagram.com/evergrow.ae" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/evergrow_corporategifts/" target="_blank" rel="noopener noreferrer">
                         <FaInstagram className='icon-foot' />
                     </a>
                     {/*<FaTwitter className='icon-foot' />

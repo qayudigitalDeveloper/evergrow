@@ -6,6 +6,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi";
 import Select from 'react-select';
 import { API_BASE_URL } from '../../config';
 import { FaWhatsapp } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const intedProducts = [
     {
@@ -121,6 +122,15 @@ const ContactUs = () => {
     const message = encodeURIComponent("Hello, I want to order your products");
     const whatsappUrl = `https://wa.me/${phone}?text=${message}`
 
+    const handlemail = () => {
+    const subject = encodeURIComponent("Query from Website");
+    const body = encodeURIComponent("Hi Evergrow team,\n\nI want to order your products.");
+    window.open(
+      `https://mail.google.com/mail/?view=cm&fs=1&to=info@evergrow.ae&su=${subject}&body=${body}`,
+      '_blank'// Opens in a new tab
+    );
+  }
+
     return (
         <div className='conta-cont' id="contactus">
             <div className='con-left'>
@@ -136,7 +146,8 @@ const ContactUs = () => {
                     rel="noopener noreferrer"
                 >
                     <p><FaWhatsapp /> +971 5574 43213</p></a>
-                <p><a className="email-ever" href="mailto:info@evergrow.ae"><FiMail /> info@evergrow.ae</a></p>
+                <p onClick={handlemail}><FiMail /> info@evergrow.ae</p>
+                <p><a className="email-ever" href="https://www.instagram.com/evergrow_corporategifts/"><FaInstagram /> evergrow_corporategifts</a></p>
                 <p>
 
                     <HiOutlineLocationMarker /> Warehouse 2, Al Khabaisi, Deira, Dubai
